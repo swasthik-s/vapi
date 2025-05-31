@@ -6,11 +6,11 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@vercel/node": "^5.2.1",
     "axios": "^1.5.0"
   },
   "devDependencies": {
-    "@types/node": "^20.4.2",
-    "typescript": "^5.1.6"
+    "@vercel/node": "^1.12.1",
+    "typescript": "^5.1.6",
+    "@types/node": "^20.4.2"
   }
 }
