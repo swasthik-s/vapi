@@ -20,7 +20,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // ✅ Redirect to Flask UI after saving session
     res.writeHead(302, {
-      Location: 'http://localhost:5000/',
+      Location: 'https://aliceblue-bot.onrender.com/',
     });
     res.end();
 
